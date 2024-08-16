@@ -1,5 +1,5 @@
 resource "digitalocean_vpc" "example" {
   name     = "example-project-network"
-  region   = "lon1"
+  region   = "nyc3"
   ip_range = "10.10.10.0/24"
 }
